@@ -1,0 +1,26 @@
+#container {
+  width: 70%;
+  margin: 1% auto;
+}
+
+#addButton {
+  margin-left: 1%;
+  margin-bottom: 2%;
+  border: 2px #4caf50 solid;
+  background-color: rgb(255, 255, 255);
+  color: black;
+  padding: 10px;
+}
+
+#addButton:hover {
+  background-color: #4caf50;
+  color: white;
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+    0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+#todoInputName {
+  margin-bottom: 2%;
+  width: 80%;
+  padding: 10px;
+}
